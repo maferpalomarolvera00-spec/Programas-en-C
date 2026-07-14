@@ -56,7 +56,7 @@ void ordernar_tam(int totalRegistros){
     for(int k=0;k<totalRegistros;k++){
         for(int i=0;i<totalRegistros-1-k;i++){
             if(tam[i]>tam[i+1]){
-                //TAMAÑO
+                //TAMAÃ‘O
                 int aux_tam=tam[i];
                 tam[i]=tam[i+1];
                 tam[i+1]=aux_tam;
